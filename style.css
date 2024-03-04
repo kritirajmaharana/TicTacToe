@@ -27,3 +27,15 @@ body,html{
     grid-template-columns: repeat(3 , 1fr);
     gap: 5px;
 }
+.box{
+    height: 163px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+}

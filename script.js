@@ -20,15 +20,22 @@ const winningArr =
 box.forEach(element => {
    element.addEventListener('click', () => {
     if(iszero){
-        element.textContent = "x"
+        element.textContent = "close"
         iszero = false;
-        element.setAttribute("disabled", false)
+        element.setAttribute("disabled", true);
     }else{
-        element.textContent = "o"
+        element.textContent = "circle"
         iszero = true;
-        element.setAttribute("disabled", false)
-
+        element.setAttribute("disabled", false);
     }
-   }) 
+   });
 });
+checkWinner(); 
+
+function checkWinner(){
+    for(let pattern of winningArr){
+        console.log(pattern);
+    }
+}
 })();
+

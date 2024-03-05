@@ -3,7 +3,7 @@
 
 const box = document.querySelectorAll('.box');
 const rest = document.querySelector('#resetBtn');
-
+var winner;
 let iszero;
 
 const winningArr = 
@@ -28,14 +28,41 @@ box.forEach(element => {
         iszero = true;
         element.setAttribute("disabled", false);
     }
-   });
+    checkWinner();
+    showWinnner();
+ 
 });
-checkWinner(); 
+});
+rest.addEventListener('click', ()=>{
+   reset();     
+});
+
+function reset(){
+    box.forEach(element => {
+        element.removeAttribute("disabled", true);
+        element.textContent = "";
+    });
+};
 
 function checkWinner(){
     for(let pattern of winningArr){
-        console.log(pattern);
+        let pos1 = box[pattern[0]].innerText;
+        let pos2 = box[pattern[1]].innerText;
+        let pos3 = box[pattern[2]].innerText;
+        
+        if(pos1 != "" && pos2 != "" && pos3 != ""){
+            if(pos1 === pos2 && pos2 === pos3){
+                winner = pos1 ;
+            }
+        } ;
     }
+};
+
+function showWinnner(){
+    if(winner === "circle" || winner === "close"){
+        console.log(winner);
+    };
 }
+
 })();
 

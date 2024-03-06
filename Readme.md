@@ -52,10 +52,10 @@ If you'd like to contribute to the project, feel free to submit issues, feature 
 
 This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 - Inspired by the classic Tic Tac Toe game.
-- Thanks to the web development community for their valuable contributions.
+- Thanks to the web development community for their valuable contributions. -->
 
 ## Contact
 

@@ -63,8 +63,8 @@ For any questions or concerns regarding the project, feel free to contact the pr
 
 
 - Kritiraj Maharana
-- [Gamil]:kritirajmaharana@gmail.com    
-- [linkedIn]:www.linkedin.com/in/kritiraj-maharana/
+- Email: [kritirajmaharana@gmail.com](mailto:kritirajmaharana@gmail.com)
+- LinkedIn: [www.linkedin.com/in/kritiraj-maharana/](https://www.linkedin.com/in/kritiraj-maharana/)
 
 Adjust the file paths, commands, and other details according to the structure of your project.
 
